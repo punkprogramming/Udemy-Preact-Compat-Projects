@@ -1,0 +1,19 @@
+.song-detail-container {
+    -webkit-transform: translate(50%, 10%) rotate(18deg);
+        -ms-transform: translate(50%, 10%) rotate(18deg);
+            transform: translate(50%, 10%) rotate(18deg);
+    -webkit-transform-origin: top left;
+        -ms-transform-origin: top left;
+            transform-origin: top left;
+}
+
+.song-lyrics {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width: 480px) {
+    .song-lyrics {
+        font-size: 1.6rem;
+    }
+}

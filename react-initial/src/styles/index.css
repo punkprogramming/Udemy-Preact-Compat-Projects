@@ -1,0 +1,52 @@
+:root {
+    --background-col: whitesmoke;
+    --shadow-default: rgba(0, 0, 0, 0.4);
+    --shadow-dark: rgba(0, 0, 0, 0.6);
+    --file-feedback-col: lightgray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh;
+
+  background: var(--background-col);
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Kirang Haerang', sans-serif;
+}
+
+button {
+    background: none;
+    border: 2px solid black;
+    border-radius: 5%;
+
+    font-size: 2.2rem;
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 50%;
+    }
+}

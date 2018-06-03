@@ -17,5 +17,11 @@ module.exports = {
     devServer: {
         historyApiFallback: true,
         publicPath: "/",
+    },
+    resolve: {
+        alias: {
+            "react": "preact-compat",
+            "react-dom": "preact-compat"
+        }
     }
 }

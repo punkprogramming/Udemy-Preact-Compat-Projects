@@ -1,4 +1,4 @@
-# Preact-compat Projects
+# Preact Course Preact-Compat Projects
 
 ## Introduction
 
